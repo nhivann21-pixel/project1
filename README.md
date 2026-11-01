@@ -1,5 +1,3 @@
-# BÁO CÁO TIẾN ĐỘ TUẦN 1
-
 **ĐỀ TÀI: XÂY DỰNG CHƯƠNG TRÌNH QUẢN LÝ THÔNG TIN SINH VIÊN**
 
 ## 1. Giới thiệu đề tài
@@ -151,26 +149,6 @@ Trong các giai đoạn tiếp theo, nhóm dự kiến tập trung vào các n�
 - **Đảm bảo tính liên tục của dữ liệu:** Xây dựng cơ chế đọc và ghi tệp để thông tin được duy trì giữa các lần chạy chương trình.
 
 Các định hướng này nhằm từng bước chuyển chương trình từ công cụ nhập và hiển thị dữ liệu ban đầu thành một giải pháp quản lý thông tin sinh viên có đầy đủ hơn các thao tác cần thiết.
-
-## 10. Kết luận
-
-Trong tuần 1, nhóm đã bước đầu xây dựng được chương trình quản lý thông tin sinh viên với hai chức năng cốt lõi là thêm mới và hiển thị danh sách. Đây là nền tảng ban đầu để tổ chức dữ liệu sinh viên theo một cấu trúc thống nhất và hỗ trợ người dùng theo dõi thông tin thuận tiện hơn.
-
-Tuy nhiên, để giải quyết đầy đủ nhu cầu quản lý, chương trình cần tiếp tục được hoàn thiện về khả năng chỉnh sửa, xóa, tìm kiếm, thống kê và lưu trữ dữ liệu. Trong những giai đoạn tiếp theo, nhóm sẽ tập trung phát triển các chức năng này nhằm nâng cao tính hữu ích, độ tin cậy và khả năng đáp ứng yêu cầu quản lý của chương trình.
-
-## 11. Phân công công việc
-
-### Người A – Xây dựng khung chương trình và nền tảng
-
-- Khởi tạo repository GitHub, cấu hình `.gitignore` và thêm thành viên B.
-- Khai báo `struct SinhVien`, mảng `danhSach[MAX_SV]`.
-- Xây dựng hàm `main()` và giao diện menu `inMenu()`.
-- Triển khai các hàm xử lý nhập liệu: `docDong()`, `nhapSoNguyen()`, `nhapChuoiKhongRong()`.
-- Xây dựng chức năng hiển thị danh sách sinh viên: `hienThi()` và `hienThi1SV()`.
-
-### Người B – Xây dựng chức năng nghiệp vụ và xử lý dữ liệu
-
-- Khởi tạo file `README.md` giới thiệu đề tài và thành viên nhóm.
 - Xây dựng các hàm kiểm tra dữ liệu: `kiemTraKhoaNganh()`, `nhapMaKhoaNganh()`, `nhapNgaySinh()`, `taoMaSV()`, `chuanHoaMaCu()`.
 - Triển khai chức năng thêm sinh viên `themSinhVien()`.
 - Xây dựng hàm tạo dữ liệu mẫu `danhSachSinhVien()` để phục vụ kiểm thử.
