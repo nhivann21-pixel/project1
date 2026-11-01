@@ -94,39 +94,9 @@ Menu hiện cung cấp các lựa chọn tương ứng với những chức năn
 
 Việc phân chia các chức năng giúp xác định rõ phạm vi đã hoàn thành và những nội dung cần tiếp tục giải quyết trong quá trình phát triển đề tài.
 
-## 7. Quy trình hoạt động hiện tại
+## 7. Hạn chế và định hướng phát triển
 
-Trong phiên bản tuần 1, quy trình sử dụng chương trình được tổ chức như sau:
-
-1. Người dùng khởi động chương trình quản lý thông tin sinh viên.
-2. Chương trình hiển thị menu các chức năng.
-3. Người dùng lựa chọn thao tác cần thực hiện.
-4. Nếu lựa chọn thêm sinh viên, chương trình kiểm tra sức chứa của danh sách và tiếp nhận các thông tin cần thiết.
-5. Nếu lựa chọn hiển thị danh sách, chương trình kiểm tra dữ liệu hiện có và trình bày thông tin theo dạng bảng.
-6. Với các chức năng chưa hoàn thiện, chương trình thông báo tình trạng triển khai.
-7. Sau mỗi thao tác, chương trình quay lại menu để tiếp tục nhận yêu cầu.
-8. Người dùng chọn chức năng thoát để kết thúc chương trình.
-
-Do chưa có chức năng lưu trữ lâu dài, danh sách sinh viên hiện chỉ được duy trì trong thời gian chương trình hoạt động. Đây là một hạn chế cần được giải quyết trong các giai đoạn tiếp theo.
-
-## 8. Kết quả đạt được trong tuần 1
-
-Trong tuần đầu tiên, nhóm đã xây dựng được nền tảng ban đầu cho chương trình quản lý thông tin sinh viên.
-
-Các kết quả chính bao gồm:
-
-- Xác định được những thông tin cơ bản cần quản lý đối với mỗi sinh viên.
-- Xây dựng danh sách dữ liệu tập trung với sức chứa tối đa 50 sinh viên.
-- Triển khai khả năng bổ sung thông tin sinh viên mới.
-- Triển khai khả năng hiển thị danh sách để người dùng kiểm tra dữ liệu.
-- Xây dựng menu điều khiển, định hướng các thao tác quản lý cần thiết.
-- Xác định các chức năng còn thiếu và những hạn chế cần khắc phục.
-
-Xét theo mục tiêu giải quyết vấn đề, phiên bản hiện tại đã đáp ứng bước đầu nhu cầu nhập và quan sát thông tin sinh viên trong một danh sách thống nhất. Tuy nhiên, chương trình chưa đáp ứng đầy đủ nhu cầu quản lý vì chưa hỗ trợ chỉnh sửa, xóa, thống kê và bảo toàn dữ liệu sau khi thoát.
-
-## 9. Hạn chế và định hướng phát triển
-
-### 9.1. Hạn chế hiện tại
+### 7.1. Hạn chế hiện tại
 
 - Số lượng bản ghi được giới hạn ở mức 50 sinh viên.
 - Chưa có cơ chế kiểm tra đầy đủ tính hợp lệ và tính duy nhất của mã sinh viên.
@@ -136,7 +106,7 @@ Xét theo mục tiêu giải quyết vấn đề, phiên bản hiện tại đã
 - Chưa có cơ chế lưu trữ lâu dài nên dữ liệu sẽ mất khi chương trình kết thúc.
 - Một số trường thông tin đã được xác định nhưng chưa được sử dụng đầy đủ trong quy trình nhập và hiển thị.
 
-### 9.2. Định hướng phát triển
+### 7.2. Định hướng phát triển
 
 Trong các giai đoạn tiếp theo, nhóm dự kiến tập trung vào các nội dung sau:
 
