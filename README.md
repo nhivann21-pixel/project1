@@ -80,17 +80,16 @@ Bên cạnh đó, các chức năng cập nhật, xóa, thống kê, sắp xếp
 
 ## 6. Các chức năng và trạng thái triển khai
 
-| Chức năng | Mục đích quản lý | Tiến độ tuần 1 |
-|---|---|---|
-| Thêm sinh viên | Bổ sung bản ghi sinh viên mới | Đã triển khai |
-| Hiển thị danh sách | Theo dõi và kiểm tra thông tin đã nhập | Đã triển khai |
-| Cập nhật thông tin | Điều chỉnh thông tin khi có thay đổi | Chưa triển khai |
-| Xóa sinh viên | Loại bỏ bản ghi không còn cần thiết | Chưa triển khai |
-| Thống kê | Tổng hợp số lượng sinh viên theo tiêu chí | Chưa triển khai |
-| Sắp xếp | Tổ chức danh sách theo thứ tự mong muốn | Chưa triển khai |
-| Đọc dữ liệu từ tệp | Khôi phục dữ liệu đã lưu | Chưa triển khai |
-| Ghi dữ liệu vào tệp | Duy trì dữ liệu sau khi kết thúc chương trình | Chưa triển khai |
-
+| Chức năng | Mục đích quản lý |
+|---|---|
+| Thêm sinh viên | Bổ sung bản ghi sinh viên mới |
+| Hiển thị danh sách | Theo dõi và kiểm tra thông tin đã nhập |
+| Cập nhật thông tin | Điều chỉnh thông tin khi có thay đổi |
+| Xóa sinh viên | Loại bỏ bản ghi không còn cần thiết |
+| Thống kê | Tổng hợp số lượng sinh viên theo tiêu chí |
+| Sắp xếp | Tổ chức danh sách theo thứ tự mong muốn |
+| Đọc dữ liệu từ tệp | Khôi phục dữ liệu đã lưu |
+| Ghi dữ liệu vào tệp | Duy trì dữ liệu sau khi kết thúc chương trình |
 Menu hiện cung cấp các lựa chọn tương ứng với những chức năng trên. Đối với các chức năng chưa hoàn thiện, chương trình mới hiển thị thông báo trạng thái thay vì thực hiện thao tác quản lý thực tế.
 
 Việc phân chia các chức năng giúp xác định rõ phạm vi đã hoàn thành và những nội dung cần tiếp tục giải quyết trong quá trình phát triển đề tài.
